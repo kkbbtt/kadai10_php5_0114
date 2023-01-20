@@ -22,7 +22,7 @@ function loginCheck()
 function db_conn()
 {
     try {
-        $db_name = 'gs_user_table';    //データベース名
+        $db_name = 'kadai_db';    //データベース名
         $db_id   = 'root';      //アカウント名
         $db_pw   = '';      //パスワード：XAMPPはパスワード無しに修正してください。
         $db_host = 'localhost'; //DBホスト
